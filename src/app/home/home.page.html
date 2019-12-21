@@ -1,0 +1,118 @@
+<ion-header>
+  <ion-toolbar style="background: 0cea89;">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  
+  <!-- <div class="content">
+    <p style="text-align: center; width: 100%;">圖片</p>
+    <div class="introduction">
+      <h1>灣裡歷史介紹</h1>
+      <h5>內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容</h5>
+    </div>
+  </div> -->
+  <!-- <ion-card (click)="go_about()">
+    <img src="../../assets/pic/map.jpg" />
+    <ion-card-header>
+      <ion-card-subtitle>台南市南區灣裡</ion-card-subtitle>
+      <ion-card-title>歷史介紹</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      內容內容內容內容內容內容內容內容內容
+    </ion-card-content>
+  </ion-card> -->
+  <ion-card>
+    <img src="../../assets/pic/Home1.png" (click)="go_introduction()" />
+    <ion-card-header>
+      <ion-card-subtitle>台南市南區鯤鯓</ion-card-subtitle>
+      <ion-card-title>鯤鯓</ion-card-title>
+    </ion-card-header>
+    <!-- <ion-card-content>
+      事實上，七鯤鯓涵蓋範圍超過南區，一鯤鯓為灰窯尾，而今日安平古聚落則位於上鯤鯓，兩者合併為安平全島。而二鯤鯓為今天安平國中到億載金城一帶；三鯤鯓在現今億載金城南邊對岸處，安平新港之北，已與漁光島相連為一島嶼；四鯤鯓就是現在的下鯤鯓，今天也單稱「鯤鯓」；五鯤鯓為現在臺南市的喜樹地區，而六鯤鯓則為現在的灣裡，七鯤鯓則是現在的高雄市茄萣區白沙崙。（由於文獻不足，也有一說六鯤鯓是現在的喜樹、七鯤鯓是現在的灣裡）（資料來源：wiki_南區鯤鯓）
+    </ion-card-content> -->
+    <ion-card-content>
+      鯤鯓（臺灣話：Khun-sin），指圍繞著潟湖、內海仔外的大陸島，即濱外沙洲。也可略稱為沙汕地形，或簡稱仙。
+
+      在台灣，由於西南沿海擁有豐富的沙洲與潟湖地形，自古以來在當地（尤其台南市海濱）便出現許多以「鯤鯓」為名的地名。
+
+      在字義上，鯤為鯨魚，鯓為鯨魚隆起的背部，鯤鯓乃是比喻沙洲在海上遠觀有如鯨魚背部的意思。台灣因外型及面積廣大，亦有鯤島之稱。
+
+      《莊子·逍遙遊》描述鯤曰：「北冥有魚，其名為鯤，鯤之大，不知其幾千里也。化而為鳥，其名大鵬，鵬之背，不知其幾千里也。」
+      <br>
+      點擊圖片，了解更多關於「鯤鯓」。
+    </ion-card-content>
+    <!-- <ion-card-content>
+      自然環境、
+      歷史、
+      宗教、
+      民居生活。(點擊圖片)
+    </ion-card-content> -->
+    <!-- <ion-card-content>
+      
+    </ion-card-content> -->
+  </ion-card>
+
+  <ion-card>
+    <img src="../../assets/pic/Home_guide.PNG" (click)="go_map()" />
+    <ion-card-header>
+      <ion-card-subtitle>台南市南區一日遊</ion-card-subtitle>
+      <ion-card-title>著名景點</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-chip color="primary">
+        <ion-icon name="pin"></ion-icon>
+        <a href="https://www.google.com.tw/maps/dir/%E8%97%8D%E6%99%92%E5%9C%96%E6%96%87%E5%89%B5%E5%9C%92%E5%8D%80+702%E5%8F%B0%E5%8D%97%E5%B8%82%E4%B8%AD%E8%A5%BF%E5%8D%80%E8%A5%BF%E9%96%80%E8%B7%AF%E4%B8%80%E6%AE%B5689%E5%B7%B7/%E6%B0%B4%E4%BA%A4%E7%A4%BE%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80+702%E5%8F%B0%E5%8D%97%E5%B8%82%E5%8D%97%E5%8D%80%E8%88%88%E4%B8%AD%E8%A1%97118%E8%99%9F%E8%88%88%E4%B8%AD%E8%A1%977%E5%B7%B718%E5%BC%845%E8%99%9F/%E9%BE%8D%E5%B1%B1%E5%AF%BA+702%E5%8F%B0%E5%8D%97%E5%B8%82%E5%8D%97%E5%8D%80%E9%AF%A4%E9%AF%93%E8%B7%AF102%E5%B7%B781%E8%99%9F/%E5%8F%B0%E5%8D%97%E5%96%9C%E6%A8%B9%E8%90%AC%E7%9A%87%E5%AE%AE+702%E5%8F%B0%E5%8D%97%E5%B8%82%E5%8D%97%E5%8D%80%E5%96%9C%E6%A8%B9%E8%B7%AF222%E5%B7%B752%E8%99%9F/%E7%81%A3%E8%A3%A1%E8%90%AC%E5%B9%B4%E6%AE%BF+702%E5%8F%B0%E5%8D%97%E5%B8%82%E5%8D%97%E5%8D%80%E7%81%A3%E8%A3%A1%E8%B7%AF64%E8%99%9F/%E9%BB%83%E9%87%91%E6%B5%B7%E5%B2%B8+702%E5%8F%B0%E5%8D%97%E5%B8%82%E5%8D%97%E5%8D%80%E8%A5%BF%E9%83%A8%E6%BF%B1%E6%B5%B7%E5%85%AC%E8%B7%AF/%E5%8F%B0%E5%8D%97%E5%B8%82%E7%AB%8B%E9%A6%AC%E8%A1%93%E5%A0%B4+702%E5%8F%B0%E5%8D%97%E5%B8%82%E5%8D%97%E5%8D%80%E6%BF%B1%E5%8D%97%E8%B7%AF780%E8%99%9F/@22.9508354,120.1524023,13z/data=!4m44!4m43!1m5!1m1!1s0x346e767bd141b7b5:0x58fa83c5a93881d4!2m2!1d120.1973454!2d22.987102!1m5!1m1!1s0x346e75d456a4b15b:0xffd3a9bf91ffb03d!2m2!1d120.2015743!2d22.9776513!1m5!1m1!1s0x346e75926de057fb:0xd1b14093e60466d7!2m2!1d120.171225!2d22.9616376!1m5!1m1!1s0x346e7575ec5c9b05:0x7268cb17fd2dead5!2m2!1d120.177478!2d22.9414909!1m5!1m1!1s0x346e7572e4706747:0xadac18a0469c212f!2m2!1d120.1800774!2d22.9332912!1m5!1m1!1s0x346e75721ffd3031:0xb4dec7201f75490b!2m2!1d120.1762577!2d22.9332088!1m5!1m1!1s0x346e7546abe1c0dd:0x951330365ef5303a!2m2!1d120.1765358!2d22.915403!3e0?hl=zh-TW"
+          target="_blank">Google地圖</a>
+      </ion-chip>
+      前往一日遊路線(PS:最後馬術場是這條路線離二仁溪最近的地點，此路線供參考)<br>
+      點擊圖片前往各著名景點介紹。
+    </ion-card-content>
+    <ion-card-content>
+
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <img src="../../assets/pic/Home_map.PNG" />
+    <ion-card-header>
+      <ion-card-subtitle>交通</ion-card-subtitle>
+      <ion-card-title>交通介紹</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      本區北以永華路、健康路等與中西區為界，西北和安平區相鄰運河，東邊與東區、仁德區接壤，南邊以二仁溪與高雄市湖內區及茄萣區為界，西方則為臺灣海峽。著名景點有黃金海岸、竹溪寺、臺南市立體育場。
+      <br>
+      公路、客運、T-bike...等等詳細交通資訊請
+
+      <ion-chip color="primary">
+        <a href="https://zh.wikipedia.org/wiki/%E5%8D%97%E5%8D%80_(%E8%87%BA%E5%8D%97%E5%B8%82)#%E4%BA%A4%E9%80%9A"
+          target="_blank">點此</a>
+      </ion-chip>
+    </ion-card-content>
+  </ion-card>
+
+
+  <ion-fab style="margin-right: 10px;" vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="md-link"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="top">
+      <ion-fab-button href="https://www.facebook.com/TWWCHEDO/" target="_blank">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+
+    <ion-fab-list side="start">
+      <ion-fab-button href="https://www.instagram.com/" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+
+  </ion-fab>
+</ion-content>
