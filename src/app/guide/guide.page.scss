@@ -1,6 +1,23 @@
-img{
-    //transform:rotate(90deg);
-    display: block;
-    margin: auto;
-    padding-bottom: 15px;
+img {
+  //transform:rotate(90deg);
+  display: block;
+  margin: auto;
+  padding-bottom: 15px;
+}
+.adimg {
+  background: white;
+  padding-top: 5px;
+  ion-slides {
+    box-shadow: 0px 2px 5px grey;
+    width: 100%;
+    height: auto;
+  }
+  ion-slider {
+    width: 100%;
+    height: auto;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
