@@ -23,7 +23,57 @@
       其中，台南市南區包含四鯤鯓、喜樹、灣裡。
     </ion-card-content>
   </ion-card>
+  <div class="status">
+    <ion-card>
+      <div class="timeline">
+        <div>
+          已收货
+          <ion-label>
+            <h5>您的包裹安全地交给您。</h5>
+          </ion-label>
+        </div>
+        <div>
+          待交货
+          <ion-label>
+            <h5>我们正在尝试交货与您。</h5>
+          </ion-label>
+        </div>
+        <div>
+          已付款
+          <ion-label>
+            <h5>我们已收到您的付款。</h5>
+          </ion-label>
+        </div>
+        <div>
+          待付款
+          <ion-label>
+            <h5>我們正在等待您的付款。</h5>
+          </ion-label>
+        </div>
+        <div>
+          待打包
+          <ion-label>
+            <h5>我们正在处理您的包裹。</h5>
+          </ion-label>
+        </div>
+        <div class="{{warehouse}}">
+          抵达仓库
+          <ion-label>
+            <h5>您的包裹已抵达物流设施。</h5>
+            <h4>{{warehousetime}}</h4>
+          </ion-label>
+        </div>
+        <div class="last">
+          待确认
+          <ion-label>
+            <h5>我們已收到您的訂單。</h5>
+            <h4>{{preordertime}}</h4>
+          </ion-label>
+        </div>
+      </div>
 
+    </ion-card>
+  </div>
   <!-- <ion-card>
     <img src="../../assets/pic/oldermap.jpeg" />
     <ion-card-header>
