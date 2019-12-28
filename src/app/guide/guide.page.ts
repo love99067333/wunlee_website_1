@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class GuidePage implements OnInit {
 
   slidesItems: any = [
+    
+    { img: '../../assets/pic/guide/1208-18.jpg' },
     { img: '../../assets/pic/guide/1208-1.jpg' },
     { img: '../../assets/pic/guide/1208-2.jpg' },
     { img: '../../assets/pic/guide/1208-3.jpg' },
@@ -24,8 +26,7 @@ export class GuidePage implements OnInit {
     { img: '../../assets/pic/guide/1208-14.jpg' },
     { img: '../../assets/pic/guide/1208-15.jpg' },
     { img: '../../assets/pic/guide/1208-16.jpg' },
-    { img: '../../assets/pic/guide/1208-17.jpg' },
-    { img: '../../assets/pic/guide/1208-18.jpg' }
+    { img: '../../assets/pic/guide/1208-17.jpg' }
   ];
   slideOpts = {
     initialSlide: 1,
