@@ -49,6 +49,11 @@ export class AppComponent {
       title: '聯絡方式 Contact Us',
       url: '/about',
       icon: 'text'
+    },
+    {
+      title: 'APP下載 Download',
+      url: '/download',
+      icon: 'logo-android'
     }
     /*{
       title: '景點',

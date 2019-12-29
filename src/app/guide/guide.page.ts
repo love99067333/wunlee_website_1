@@ -30,7 +30,7 @@ export class GuidePage implements OnInit {
   ];
   slideOpts = {
     initialSlide: 1,
-    speed: 3000,
+    speed: 1000,
     loop: true,
     autoplay: true,
     pager: true

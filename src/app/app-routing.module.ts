@@ -42,6 +42,10 @@ const routes: Routes = [
   {
     path: 'guide',
     loadChildren: () => import('./guide/guide.module').then( m => m.GuidePageModule)
+  },
+  {
+    path: 'download',
+    loadChildren: () => import('./download/download.module').then( m => m.DownloadPageModule)
   }
 ];
 
