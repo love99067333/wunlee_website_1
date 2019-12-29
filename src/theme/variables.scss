@@ -80,20 +80,29 @@
 }
 ion-toolbar{
   //--background:linear-gradient(120deg, #51f08f, #ccbc1e);
-  --background:#fff;//1191ac 
+  --background:#393939;//1191ac 
   ion-title{
+    color:#FFF;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -12px);
 
   }
-
+  ion-menu-button{
+    color:#FFF;
+  }
+  
 }
 ion-content{
   --background:#e1e1e1;
 }
-ion-card{
-  --background:#FFF;  
+::ng-deep{
+  ion-card{
+    --background:#FFF;  
+    width: 80%;
+    margin:auto;
+    margin-bottom: 10px;
+  }
 }
 ion-chip{
   a{

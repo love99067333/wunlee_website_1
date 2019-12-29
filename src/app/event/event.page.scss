@@ -7,7 +7,12 @@ img{
         margin: auto;
     }
 }
-
+ion-card{
+  --background:#FFF;  
+  width: 85%;
+  margin:auto;
+  margin-bottom: 10px;
+}
 .history {
     display: block;
     width: 100%;

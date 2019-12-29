@@ -1,6 +1,6 @@
 ion-card {
     --background:#FFF;
-    width: 80%;
+    width: 85%;
     margin:auto;
     margin-bottom: 10px;
   }
@@ -8,7 +8,7 @@ ion-card {
 .status {
     ion-card {
       border-radius: 15px;
-      padding: 20px 20px 0 20px;
+      padding: 0px 20px 20px 20px;
     }
     ion-label {
       padding: 0px 0px 0px 0px;
@@ -37,7 +37,7 @@ ion-card {
       /*to replace the line*/
       background: linear-gradient(#cac9c9, #cac9c9) left 16px top 13px/2px 100% no-repeat;
       margin-bottom: -6px;
-      color: black;
+      color: blue;
     }
     div.timeline > div.mid {
       width: 100%;
@@ -47,7 +47,7 @@ ion-card {
       position: relative;
       /*to replace the line*/
       margin-bottom: -2px;
-      color: rgb(249, 107, 62);
+      color: black;
       background: linear-gradient(rgb(249, 107, 62), rgb(249, 107, 62)) left 16px top 13px/2px 100% no-repeat;
     }
     div.timeline > div.last {
