@@ -1,11 +1,11 @@
 <ion-header>
-  
-  <ion-toolbar">
-    
+
+  <ion-toolbar>
+
     <ion-buttons slot="end">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    
+
     <ion-title>
       APP下載
     </ion-title>
@@ -13,6 +13,28 @@
 </ion-header>
 
 <ion-content>
-下載APP可離線觀看(除Google Map等等外部應用)
-<a download href="/鯤鯓.apk">TEST</a>
+  <ion-card>
+    <img src="../../assets/pic/APKdownload.png" />
+    <!-- <ion-card-header>
+      <ion-card-subtitle>台南市南區灣裡</ion-card-subtitle>
+      <ion-card-title>灣裡萬年文史推廣學會</ion-card-title>
+    </ion-card-header> -->
+    <ion-card-content>
+      下載APP可離線觀看(除Google Map等等外部應用)，
+      手機網頁觀看請<ion-chip color="primary">
+        <ion-icon name="pin"></ion-icon>
+        <a download href="/鯤鯓.apk" target="_blank">點此</a>
+      </ion-chip>下載
+
+    </ion-card-content>
+    <ion-card-content>
+      PS:暫時無法上架iOS版本
+    </ion-card-content>
+  </ion-card>
+  <ion-footer>
+    <hr>
+    <h5>
+      Copyright 2019 | All Rights Reserved. Designed by 4a5g0082@STUST.edu.tw.
+    </h5>
+  </ion-footer>
 </ion-content>

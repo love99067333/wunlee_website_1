@@ -40,10 +40,10 @@ ion-card{
       tbody td:last-child {
         padding: 14px 0 5px 13px;
         width: 40%;
-        text-align: center;
+        text-align: right;
       }
       thead th {
-        color: rgb(249, 107, 62);
+        color: #3300ff;
         font-size: 10px;
         border-bottom: 1px solid black;
       }
@@ -52,5 +52,3 @@ ion-card{
       }
     }
   }
-
-  
