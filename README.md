@@ -8,3 +8,5 @@
  * 包裝成網站 =>在CMD輸入 ionic cordova build --release --verbose
  關於包裝成網站的部分可以參考Ionic 官方文件 => https://ionicframework.com/docs/cli/commands/cordova-build
 
+#上架網頁
+ http://formyappgom.byethost8.com/
